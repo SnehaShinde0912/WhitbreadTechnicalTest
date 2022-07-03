@@ -2,38 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-03T19:24:36 BST" name="All Test Suite" finished-at="2022-07-03T19:25:13 BST" duration-ms="37738">
+  <suite started-at="2022-07-03T19:28:06 BST" name="All Test Suite" finished-at="2022-07-03T19:28:37 BST" duration-ms="31202">
     <groups>
     </groups>
-    <test started-at="2022-07-03T19:24:36 BST" name="Assignment" finished-at="2022-07-03T19:25:13 BST" duration-ms="37738">
+    <test started-at="2022-07-03T19:28:06 BST" name="Assignment" finished-at="2022-07-03T19:28:37 BST" duration-ms="31202">
       <class name="Assignment">
-        <test-method signature="thirdSearch(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:Assignment@2892d68]" started-at="2022-07-03T19:24:36 BST" name="thirdSearch" finished-at="2022-07-03T19:25:13 BST" duration-ms="37664" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.premierinn.com/gb/en/home.html]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Manchester]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- thirdSearch -->
-        <test-method signature="secondSearch(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:Assignment@2892d68]" started-at="2022-07-03T19:24:36 BST" name="secondSearch" finished-at="2022-07-03T19:25:12 BST" duration-ms="36188" status="PASS">
+        <test-method signature="secondSearch(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:Assignment@2892d68]" started-at="2022-07-03T19:28:06 BST" name="secondSearch" finished-at="2022-07-03T19:28:36 BST" duration-ms="30142" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondSearch -->
-        <test-method signature="firstSearch(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:Assignment@2892d68]" started-at="2022-07-03T19:24:36 BST" name="firstSearch" finished-at="2022-07-03T19:25:11 BST" duration-ms="35061" status="PASS">
+        <test-method signature="firstSearch(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:Assignment@2892d68]" started-at="2022-07-03T19:28:06 BST" name="firstSearch" finished-at="2022-07-03T19:28:37 BST" duration-ms="30456" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,14 +52,40 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Reading]]>
+                <![CDATA[Oxford]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstSearch -->
-        <test-method is-config="true" signature="comparePrices()[pri:0, instance:Assignment@2892d68]" started-at="2022-07-03T19:25:13 BST" name="comparePrices" finished-at="2022-07-03T19:25:13 BST" duration-ms="3" status="PASS">
+        <test-method signature="thirdSearch(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:Assignment@2892d68]" started-at="2022-07-03T19:28:06 BST" name="thirdSearch" finished-at="2022-07-03T19:28:37 BST" duration-ms="31096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.premierinn.com/gb/en/home.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Glasglow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdSearch -->
+        <test-method is-config="true" signature="comparePrices()[pri:0, instance:Assignment@2892d68]" started-at="2022-07-03T19:28:37 BST" name="comparePrices" finished-at="2022-07-03T19:28:37 BST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- comparePrices -->
