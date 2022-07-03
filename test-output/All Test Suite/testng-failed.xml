@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Assignment(failed)">
+    <parameter name="Location-1" value="Birmingham"/>
+    <parameter name="Location-2" value="Leeds"/>
+    <parameter name="Location-3" value="Manchester"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="count" value="1"/>
+    <parameter name="BaseURL" value="https://www.premierinn.com/gb/en/home.html"/>
+    <classes>
+      <class name="Assignment">
+        <methods>
+          <include name="comparePrices"/>
+          <include name="secondSearch" invocation-numbers="0"/>
+          <include name="firstSearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Assignment -->
+    </classes>
+  </test> <!-- Assignment(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
