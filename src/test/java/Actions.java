@@ -11,7 +11,7 @@ public class Actions {
     public WebDriver driver;
     public String hotelName;
     public Hotel hotel=new Hotel();
-    public Hotel SearchHotels(String BaseURL, String browser, int count, String Location) throws InterruptedException {
+    public Hotel SearchHotels(String BaseURL, String browser, String Location) throws InterruptedException {
         //declare either webdriver chrome or firefox
         if(browser.equals("Chrome")){
             System.setProperty("webdriver.chrome.driver","webdrivers/chromedriver.exe");

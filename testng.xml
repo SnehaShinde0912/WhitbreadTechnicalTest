@@ -7,8 +7,6 @@
         <parameter name="Location-2" value="Birmingham"/>
         <parameter name="Location-3" value="Glasglow"/>
         <parameter name="browser" value="Chrome"/>
-        <parameter name="count" value="1"/>
-
         <classes>
             <class name="Assignment"></class>
         </classes>

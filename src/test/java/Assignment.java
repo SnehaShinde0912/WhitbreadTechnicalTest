@@ -12,28 +12,28 @@ public class Assignment {
 	HashMap<String, Float> hotelsWithPrice = new HashMap<>();
 	Hotel hotel = new Hotel();
 	
-	@Parameters({ "BaseURL", "browser", "count", "Location-1" })
+	@Parameters({ "BaseURL", "browser", "Location-1" })
 	@Test
-	public void firstSearch(String BaseURL, String browser, int count, String Location) throws InterruptedException {
+	public void firstSearch(String BaseURL, String browser, String Location) throws InterruptedException {
 		
 		Actions first=new Actions();
-		hotel = first.SearchHotels(BaseURL, browser, count, Location);
+		hotel = first.SearchHotels(BaseURL, browser, Location);
 		hotelsWithPrice.put(hotel.name,hotel.price);
 	}
 
-	@Parameters({ "BaseURL", "browser", "count", "Location-2" })
+	@Parameters({ "BaseURL", "browser","Location-2" })
 	@Test
-	public void secondSearch(String BaseURL, String browser, int count, String Location) throws InterruptedException {
+	public void secondSearch(String BaseURL, String browser, String Location) throws InterruptedException {
 		Actions second=new Actions();
-		hotel = second.SearchHotels(BaseURL, browser, count, Location);
+		hotel = second.SearchHotels(BaseURL, browser, Location);
 		hotelsWithPrice.put(hotel.name,hotel.price);
 	}
 
-	@Parameters({ "BaseURL", "browser", "count", "Location-3" })
+	@Parameters({ "BaseURL", "browser", "Location-3" })
 	@Test
-	public void thirdSearch(String BaseURL, String browser, int count, String Location) throws InterruptedException {
+	public void thirdSearch(String BaseURL, String browser, String Location) throws InterruptedException {
 		Actions third=new Actions();
-		hotel = third.SearchHotels(BaseURL, browser, count, Location);
+		hotel = third.SearchHotels(BaseURL, browser, Location);
 		hotelsWithPrice.put(hotel.name,hotel.price);
 	}
 	
