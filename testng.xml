@@ -3,9 +3,9 @@
 <suite name="All Test Suite">
     <test name="Assignment" parallel = "methods" thread-count = "3">
         <parameter name="BaseURL" value="https://www.premierinn.com/gb/en/home.html"/>
-        <parameter name="Location-1" value="Oxford"/>
+        <parameter name="Location-1" value="London"/>
         <parameter name="Location-2" value="Birmingham"/>
-        <parameter name="Location-3" value="Glasglow"/>
+        <parameter name="Location-3" value="Leeds"/>
         <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="Assignment"></class>
