@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test name="Assignment" parallel = "methods" thread-count = "3">
-        <parameter name="BaseURL" value="https://www.premierinn.com/gb/en/home.html"/>
-        <parameter name="Location-1" value="London"/>
-        <parameter name="Location-2" value="Birmingham"/>
-        <parameter name="Location-3" value="Leeds"/>
-        <parameter name="browser" value="Chrome"/>
+    <test name="SearchPage" parallel = "methods" thread-count = "3">
+       
+        <parameter name="Location-1" value="Reading"/>
+        <parameter name="Location-2" value="Liverpool"/>
+        <parameter name="Location-3" value="Manchester"/>
+        
         <classes>
-            <class name="Assignment"></class>
+            <class name="SearchPage"></class>
         </classes>
     </test>
 </suite>

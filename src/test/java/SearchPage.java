@@ -1,10 +1,11 @@
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map.Entry;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import java.util.HashMap;
-import java.util.Map.Entry;
 
-public class Assignment {
+public class SearchPage {
 
 	public float firstPrice;
 	public float secondPrice;
@@ -12,28 +13,28 @@ public class Assignment {
 	HashMap<String, Float> hotelsWithPrice = new HashMap<>();
 	Hotel hotel = new Hotel();
 	
-	@Parameters({ "BaseURL", "browser", "Location-1" })
+	@Parameters({"Location-1" })
 	@Test
-	public void firstSearch(String BaseURL, String browser, String Location) throws InterruptedException {
+	public void firstSearch(String Location) throws InterruptedException, IOException {
 		
 		Actions first=new Actions();
-		hotel = first.SearchHotels(BaseURL, browser, Location);
+		hotel = first.SearchHotels(Location);
 		hotelsWithPrice.put(hotel.name,hotel.price);
 	}
 
-	@Parameters({ "BaseURL", "browser","Location-2" })
+	@Parameters({"Location-2" })
 	@Test
-	public void secondSearch(String BaseURL, String browser, String Location) throws InterruptedException {
+	public void secondSearch(String Location) throws InterruptedException, IOException {
 		Actions second=new Actions();
-		hotel = second.SearchHotels(BaseURL, browser, Location);
+		hotel = second.SearchHotels( Location);
 		hotelsWithPrice.put(hotel.name,hotel.price);
 	}
 
-	@Parameters({ "BaseURL", "browser", "Location-3" })
+	@Parameters({"Location-3" })
 	@Test
-	public void thirdSearch(String BaseURL, String browser, String Location) throws InterruptedException {
+	public void thirdSearch(String Location) throws InterruptedException, IOException {
 		Actions third=new Actions();
-		hotel = third.SearchHotels(BaseURL, browser, Location);
+		hotel = third.SearchHotels( Location);
 		hotelsWithPrice.put(hotel.name,hotel.price);
 	}
 	
@@ -48,4 +49,5 @@ public class Assignment {
 		System.out.println("Lowest Price Hotel name is : " + min.getKey());
 		System.out.println("Lowest Price is : " + min.getValue());
 	}
+
 }
