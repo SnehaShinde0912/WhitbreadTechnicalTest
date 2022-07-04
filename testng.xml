@@ -3,9 +3,9 @@
 <suite name="All Test Suite">
     <test name="SearchPage" parallel = "methods" thread-count = "3">
        
-        <parameter name="Location-1" value="London"/>
-        <parameter name="Location-2" value="Birmingham"/>
-        <parameter name="Location-3" value="Leeds"/>
+        <parameter name="Location-1" value="Reading"/>
+        <parameter name="Location-2" value="Liverpool"/>
+        <parameter name="Location-3" value="Manchester"/>
         
         <classes>
             <class name="SearchPage"></class>

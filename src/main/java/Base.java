@@ -8,17 +8,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class base {
+public class Base {
 	
 	public WebDriver driver;
 	public Properties prop;
 	public WebDriver initializeDriver() throws IOException {
 		prop= new Properties();
-		FileInputStream fis= new FileInputStream("C:\\Users\\Sneha Sanket Shinde\\TestNGProject\\TechnicalAssessment\\src\\main\\java\\Whitbread\\data.properties");
+		FileInputStream fis= new FileInputStream("D:\\SnehaWhitbreadAssignment\\WhitbreadTechnicalTest\\src\\main\\java\\data.properties");
 		prop.load(fis);
 		String browserName=prop.getProperty("browser");
-		System.out.println(browserName);
-		
 		if (browserName.equals("Chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver","webdrivers/chromedriver.exe");
