@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-04T21:43:10 BST" name="MySuite" finished-at="2022-07-04T21:43:46 BST" duration-ms="36358">
+  <suite started-at="2022-07-05T08:12:23 BST" name="MySuite" finished-at="2022-07-05T08:12:51 BST" duration-ms="28368">
     <groups>
     </groups>
-    <test started-at="2022-07-04T21:43:10 BST" name="MyTest" finished-at="2022-07-04T21:43:46 BST" duration-ms="36358">
+    <test started-at="2022-07-05T08:12:23 BST" name="MyTest" finished-at="2022-07-05T08:12:51 BST" duration-ms="28368">
       <class name="SearchPage">
-        <test-method signature="secondSearch(java.lang.String)[pri:0, instance:SearchPage@52af26ee]" started-at="2022-07-04T21:43:10 BST" name="secondSearch" finished-at="2022-07-04T21:43:46 BST" duration-ms="36317" status="PASS">
+        <test-method signature="secondSearch(java.lang.String)[pri:0, instance:SearchPage@52af26ee]" started-at="2022-07-05T08:12:23 BST" name="secondSearch" finished-at="2022-07-05T08:12:51 BST" duration-ms="28327" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondSearch -->
-        <test-method signature="thirdSearch(java.lang.String)[pri:0, instance:SearchPage@52af26ee]" started-at="2022-07-04T21:43:10 BST" name="thirdSearch" finished-at="2022-07-04T21:43:42 BST" duration-ms="32043" status="PASS">
+        <test-method signature="thirdSearch(java.lang.String)[pri:0, instance:SearchPage@52af26ee]" started-at="2022-07-05T08:12:23 BST" name="thirdSearch" finished-at="2022-07-05T08:12:51 BST" duration-ms="28084" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,18 +29,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdSearch -->
-        <test-method signature="firstSearch(java.lang.String)[pri:0, instance:SearchPage@52af26ee]" started-at="2022-07-04T21:43:10 BST" name="firstSearch" finished-at="2022-07-04T21:43:42 BST" duration-ms="32043" status="PASS">
+        <test-method signature="firstSearch(java.lang.String)[pri:0, instance:SearchPage@52af26ee]" started-at="2022-07-05T08:12:23 BST" name="firstSearch" finished-at="2022-07-05T08:12:51 BST" duration-ms="28007" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Reading]]>
+                <![CDATA[Leeds]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstSearch -->
-        <test-method is-config="true" signature="comparePrices()[pri:0, instance:SearchPage@52af26ee]" started-at="2022-07-04T21:43:46 BST" name="comparePrices" finished-at="2022-07-04T21:43:46 BST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="comparePrices()[pri:0, instance:SearchPage@52af26ee]" started-at="2022-07-05T08:12:51 BST" name="comparePrices" finished-at="2022-07-05T08:12:51 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- comparePrices -->

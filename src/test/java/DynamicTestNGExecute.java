@@ -88,7 +88,7 @@ public class DynamicTestNGExecute {
    { 
 	   DynamicTestNGExecute dt = new DynamicTestNGExecute(); 
       Map<String,String> testngParams = new HashMap<String,String> ();
-      testngParams.put("Location-1","Reading"); 
+      testngParams.put("Location-1","Leeds"); 
       testngParams.put("Location-2","Liverpool"); 
       testngParams.put("Location-3","Manchester");   
       dt.runTestNGTest(testngParams); 
