@@ -83,7 +83,7 @@ public class DynamicTestNGExecute {
               e.printStackTrace(); 
             }
     }
-   //Main Method
+    
    public static void main (String args[]) 
    { 
 	   DynamicTestNGExecute dt = new DynamicTestNGExecute(); 
