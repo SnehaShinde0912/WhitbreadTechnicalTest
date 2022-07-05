@@ -87,8 +87,6 @@ public class DynamicTestNGExecute {
    public static void main (String args[]) 
    { 
 	   DynamicTestNGExecute dt = new DynamicTestNGExecute(); 
-
-      //This Map can hold your testng Parameters. 
       Map<String,String> testngParams = new HashMap<String,String> ();
       testngParams.put("Location-1","Reading"); 
       testngParams.put("Location-2","Liverpool"); 
