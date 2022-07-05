@@ -22,7 +22,8 @@
                 <configuration>
                     <suiteXmlFiles>
                         <!--suppress UnresolvedMavenProperty -->
-                        <suiteXmlFile>${xmlSuiteFileName}</suiteXmlFile>
+                        <suiteXmlFile>${xmlSuiteFileName}</suiteXmlFile >
+                        <!--suiteXmlFile>testng.xml</suiteXmlFile-->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
